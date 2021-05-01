@@ -1,0 +1,37 @@
+.login {
+   height: 400px;
+   padding: 2%;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   form {
+    display: inline-flex;
+    flex-flow: column wrap;
+    background: aliceblue;
+    flex-basis: 250px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid royalblue;
+    .form-input {
+      display: inline-flex;
+      flex-basis: 80px;
+      justify-content: space-between;
+      align-items: center;
+      label {
+        font-size: 18px;
+        color: darkblue;
+      }
+      input {
+        outline: none;
+        border: 2px solid #674ebf;
+        height: 25px;
+      }
+    }
+    .button {
+      background: darkblue;
+      width: 100px;
+      color: white;
+    }
+   }
+}
